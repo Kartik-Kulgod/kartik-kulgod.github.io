@@ -1,0 +1,154 @@
+
+
+body{
+  width: 100%;
+  margin: 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+}
+#header
+{
+max-width: 95%;
+height: 65px;
+margin: 0px auto 0px auto;
+padding: 0px 0px 0px 0px;
+}
+
+#logo
+{
+display: block;
+width: 50%;
+height: 25px;
+margin: 0px auto 0px auto;
+padding: 20px 0px;
+line-height: 25px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 2px;
+font-size: 25px;
+float: left
+}
+
+ul
+{
+width: 50%;
+max-width: 500px;
+height: 65px;
+line-height: 25px;
+list-style-type: none;
+margin: 0px auto 0px auto;
+padding: 0px 0px 0px 0px;
+display: table;
+float: right;
+}
+
+li
+{
+display: table-cell;
+width: 25%;
+height: 25px;
+line-height: 25px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin: 0px auto 0px auto;
+text-align: center;
+padding: 20px 0px 20px 0px;
+}
+
+
+li:hover
+{
+  background-color: #8A8181;
+  font-style: italic;
+}
+
+@media screen and (max-width: 500px) {
+  li{
+   display: inline-block;
+   width: 50%;  
+  }
+  #logo{
+    width: 100%;
+    float: none;
+  }
+  ul{
+    width: 100%;
+    float: none;
+    padding: 0px 0px 0px 0px;
+  }
+  #header{
+    height: 195px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width:500px)
+{
+  #logo{
+    width: 100%;
+    float: none;
+  }
+  ul{
+    width: 100%;
+    float: none;
+  }
+  #header{
+    height: 130px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#image{
+	width: 200px;
+	height: 200px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 100px;
+	padding: 0px;
+	margin: 0px auto 0px  auto;
+	background-image: url("file:///C:/Users/l/Documents/GitHub/kartik-kulgod.github.io/me.jpg");/* change the image later*/
+}
+
+
+#frontpagewriteup{
+  width: 75%;
+  min-width: 206px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px auto 20px auto;
+  padding: 0px 0px 0px 0px;
+}
+
+#frontpage{
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
