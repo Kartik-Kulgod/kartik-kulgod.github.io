@@ -1,32 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width,
-initial-scale=1">
-	<title>kk</title>
-	<link rel="stylesheet" type="text/css" href="/nav.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="index_css.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <title>Personal Website</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Ubuntu" rel="stylesheet">
 </head>
-<body>
-<div id="header">
-	<div id ="logo">
-		kartik kulgod
-	</div>
-	<div id="nav">
-		<ul>
-			<li>about</li><li>contact</li><li>blog</li><li>cv</li>
-		</ul>
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
+<nav class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation" id="navmenu">
+  <div class = "navbar-header">
+    <button type = "button" class = "navbar-toggle"
+             data-toggle = "collapse" data-target = "#navcontents">
+             <span class = "sr-only">Toggle navigation</span>
+             <span class = "icon-bar"></span>
+             <span class = "icon-bar"></span>
+             <span class = "icon-bar"></span>
+    </button>
+    <a class = "navbar-brand" href = "#home"><b>KARTIK KULGOD</b></a>
+  </div>
+  <div class="collapse navbar-collapse navbar-right" id="navcontents">
+      <ul class= "nav navbar-nav">
+          <li> <a href="#section1"><b>ABOUT</b></a></li>
+          <li> <a href="#"><b>MY WORK</a></b></li>
+          <li> <a href="#section2"><b>SAY HELLO</b></a></li>
+          <li> <a href="#"><b>CV</b></a></li>
+      </ul>
+  </div>
+</nav>
+
+<div id ="home"  class ="container-fluid" >
+<div class="section-standard">
+<h1><b>HEY. GLAD YOU'RE HERE!</b></h1>
+<i>Keep scrolling for a little about me ...</i>
+</div>
+</div>
+
+<div id="section1" class="container-fluid">
+<div class="section-standard">
+	<h1><b>ABOUT</b></h1>
+	<br>
+	<div class= "text-standard">
+		<p>Hi, This is Kartik Kulgod.</p>
+		<p>I am an Electrical & Electronics Engineering sophomore student studying at BITS Pilani,Goa Campus.</p>
+		<p>My interests include Signal and Image Processing and Artificial Intelligence and Control of Robotic systems.
+		Apart from that I travel a lot in and around Goa and visit beaches. 
+		I play squash in my free time and ardently follow it as well. </p>
+
+		<p>You can have a look at my blog where I describe my past projects as well as some hobby projects that I am currently pursuing.</p>
+
+		<p>If you are looking for something more serious feel free to look at my CV.</p>
+
+		<p>Happy browsing!</p>
 	</div>
 </div>
-<div id ="frontpage">
-	<h1>&nbsp;</h1>
-	<div id ="frontpagewriteup">
-		Travel Freak. Electronics enthusiast. Rock lover.
-	</div>
-	<h1>&nbsp;</h1>
-	<div id="image"></div>
 </div>
-<div id ="about"></div>
-<div id ="blog"></div>
-<div id ="contact"></div>
+
+<div id="section2" class="container-fluid">
+<div class="section-standard container-fluid">
+	<h1><b>SAY HELLO !</b></h1>
+	<br>
+	<div class="text-standard">
+		<p> Questions? Suggestions?
+			Ping me through any one of the following.
+			I'd love to hear you out! :)
+		</p>
+		<br>
+		<a href="http://www.facebook.com/kartik.kulgod">
+		<span class="fa-stack fa-lg">
+			<i class="fa fa-circle fa-stack-2x"></i>
+			<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+		</span>
+		</a>
+		<a href="https://www.linkedin.com/in/kartik-kulgod-98379a101">
+		<span class="fa-stack fa-lg">
+			<i class="fa fa-circle fa-stack-2x"></i>
+			<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+		</span>
+		</a>
+		<a href="">
+		<span class="fa-stack fa-lg">
+			<i class="fa fa-circle fa-stack-2x"></i>
+			<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+		</span>
+		</a>
+		<a href="">
+		<span class="fa-stack fa-lg">
+			<i class="fa fa-circle fa-stack-2x"></i>
+			<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+		</span>
+		</a>
+	</div>
+</div>
+</div>
+
 </body>
+</html>
