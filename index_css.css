@@ -1,0 +1,104 @@
+body{
+background-color: black;
+color: white;
+letter-spacing: 2px;
+position: relative;
+font-family: 'Roboto Slab', serif;
+}
+
+
+
+#navmenu{
+margin: 0px 0px 20px 0px;
+padding: 0px 20px 0px 20px;
+color: #ffffff;
+}
+
+#navlink{
+color: #ffffff;
+}
+
+#section1 {
+	padding-top: 50px;
+	min-height:100vh;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	position:relative;
+}
+
+#section2 {
+	padding-top:50px;
+	height:100vh;
+	color: #fff;
+	background-color: #000000;
+	text-align:center;
+	margin: auto;
+}
+
+.navbar-custom{
+	background-color: #000000;
+	color: white;
+	margin-top:10px;
+}
+
+.navbar-custom .navbar-brand{
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.navbar-custom .navbar-nav>li>a{
+	color: #ffffff;
+}
+
+.navbar-custom .navbar-nav>.active>a{
+	color: #ffffff;
+	font-style: italic;
+	background-color: #686565;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+	color: #ffffff;
+	font-style: italic;
+	background-color: #686565;
+}
+
+.section-standard{
+	max-width: 700px;
+	margin: 100px auto;
+	
+}
+
+.text-standard{	
+	margin:0px auto;
+	font-size: 18px;
+}
+
+p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+}
+
+.fa-facebook,.fa-linkedin,.fa-github,.fa-envelope{
+	color:black;
+}
+
+a{
+	text-decoration:none;
+}
+
+#home{
+	padding-top:50px;
+	height:100vh;
+	color: #fff;
+	background-color: #000000;
+	text-align:center;
+	margin: auto;
+	background-image: url("CoverPage.jpg");
+	background-size:cover;
+}
