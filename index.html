@@ -12,12 +12,12 @@
     <title>Personal Website</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Ubuntu" rel="stylesheet">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="150">
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="150">
 <nav class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation" id="navmenu">
   <div class = "navbar-header">
     <button type = "button" class = "navbar-toggle"
              data-toggle = "collapse" data-target = "#navcontents">
-             <span class = "sr-only">Toggle navigation</span>
+             <span class = "sr-only" >Toggle navigation</span>
              <span class = "icon-bar"></span>
              <span class = "icon-bar"></span>
              <span class = "icon-bar"></span>
@@ -26,10 +26,10 @@
   </div>
   <div class="collapse navbar-collapse navbar-right" id="navcontents">
       <ul class= "nav navbar-nav">
-          <li> <a href="#section1"><b>ABOUT</b></a></li>
-          <li> <a href="#"><b>MY WORK</a></b></li>
-          <li> <a href="#section2"><b>SAY HELLO</b></a></li>
-          <li> <a href="#"><b>CV</b></a></li>
+          <li> <a href="#section1" data-toggle = "collapse" data-target=".navbar-collapse"><b>ABOUT</b></a></li>
+          <li> <a href="#" data-toggle = "collapse" data-target=".navbar-collapse"><b>MY WORK</a></b></li>
+          <li> <a href="#section2" data-toggle = "collapse" data-target=".navbar-collapse"><b>SAY HELLO</b></a></li>
+          <li> <a href="#" data-toggle = "collapse" data-target=".navbar-collapse"><b>CV</b></a></li>
       </ul>
   </div>
 </nav>
