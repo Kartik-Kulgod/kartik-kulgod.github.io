@@ -3,9 +3,13 @@ background-color: black;
 color: white;
 letter-spacing: 2px;
 position: relative;
-font-family: 'Roboto Slab', serif;
+font-family: 'Avenir';
 }
 
+@font-face {
+    font-family: Avenir;
+    src: url("Avenir_Font/AvenirLTStd-Book.otf") format("opentype");
+}
 
 
 #navmenu{
@@ -45,7 +49,7 @@ color: #ffffff;
 
 .navbar-custom .navbar-brand{
 	color: white;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Avenir';
 }
 
 .navbar-custom .navbar-nav>li>a{
@@ -80,7 +84,7 @@ color: #ffffff;
 }
 
 p{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Avenir';
 	font-size: 18px;
 }
 
