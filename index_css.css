@@ -11,6 +11,9 @@ font-family: 'Avenir';
     src: url("Avenir_Font/AvenirLTStd-Book.otf") format("opentype");
 }
 
+.fa-custom{
+	color: black;
+}
 
 #navmenu{
 margin: 0px 0px 20px 0px;
