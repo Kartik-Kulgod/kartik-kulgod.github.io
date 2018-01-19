@@ -28,6 +28,9 @@ a:hover{
 	color: black;
 }
 
+.modal-body,.modal-footer,.modal-header{
+	background-color: rgb(30,30,30);
+}
 
 
 
